@@ -1,0 +1,16 @@
+.DS_Store
+._*
+*.o
+*.dSYM/
+# build outputs
+src/audio/plugin/MateBookAudio.driver/
+src/audio/kext/MateBookAudio.kext/
+src/fingerprint/kext/MateBookFP.kext/
+src/fingerprint/gxfp/gxfp
+src/fingerprint/gxfp/gxfp-agent
+src/fingerprint/pam/*.so
+src/fingerprint/deps/
+src/audio/tools/matebook_ctl
+# never commit personal data
+*.gxt
+*.pmk
