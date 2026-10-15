@@ -129,4 +129,3 @@ Copy the bundle into `EFI/OC/Kexts/` and reboot (kexts are injected at boot; SIP
   (except `src/fingerprint/gxfp/src/`, which is LGPL), src/system/ and docs/. Third-party
   components in `EFI/` keep their own licenses.
 - No fingerprint template, sensor key or personal identifier is included in this repository.
-- Developed with the help of AI coding assistants (Claude Code, Cursor).
