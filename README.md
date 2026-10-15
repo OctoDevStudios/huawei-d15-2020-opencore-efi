@@ -124,7 +124,9 @@ Copy the bundle into `EFI/OC/Kexts/` and reboot (kexts are injected at boot; SIP
   headers); protocol and PSK method documented by
   [szlukabence](https://github.com/szlukabence/goodix-fingerprint-spi-linux); key derivation:
   lexakimov. The macOS adaptations of that code remain under the LGPL.
-- The original code in this fork (MateBookAudio, MateBookFP, tools, docs) has no explicit
-  license yet.
+- The original code in this fork (MateBookAudio, MateBookFP, tools, docs) is under the
+  [MIT license](LICENSE). That covers src/audio/ (except the SOF firmware), src/fingerprint/
+  (except `src/fingerprint/gxfp/src/`, which is LGPL), src/system/ and docs/. Third-party
+  components in `EFI/` keep their own licenses.
 - No fingerprint template, sensor key or personal identifier is included in this repository.
 - Developed with the help of AI coding assistants (Claude Code, Cursor).
