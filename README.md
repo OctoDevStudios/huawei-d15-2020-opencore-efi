@@ -1,5 +1,11 @@
 # OpenCore EFI — Huawei MateBook D15 2020 (BOHB-WAX9)
 
+> **This repository has moved.** It is archived and kept only for the pull request to lastant's EFI.
+> Use the new repositories instead:
+> - **[huawei-matebook-d15-hackintosh](https://github.com/OctoDevStudios/huawei-matebook-d15-hackintosh)** — the EFI (with releases)
+> - **[MateBookAudio](https://github.com/OctoDevStudios/MateBookAudio)** — Intel SOF + ES8336 audio driver
+> - **[MateBookFP](https://github.com/OctoDevStudios/MateBookFP)** — Goodix GXFP51A0 fingerprint driver
+
 Fork of [lastant/huawei-d15-2020-opencore-efi](https://github.com/lastant/huawei-d15-2020-opencore-efi)
 (OpenCore 1.0.5, macOS Sonoma), cleaned up and extended with two custom drivers so that the
 **internal audio** (speakers, headphones, both microphones) and the **fingerprint reader** work.
